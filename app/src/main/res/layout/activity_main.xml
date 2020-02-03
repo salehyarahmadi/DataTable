@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context=".MainActivity">
+
+    <!-- #35495e #c9485b -->
+    <ir.androidexception.datatable.DataTable
+        android:id="@+id/dt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:header_gravity="center"
+        app:row_gravity="center"
+        app:header_vertical_padding="16dp"
+        app:header_horizontal_padding="0dp"
+        app:row_vertical_padding="16dp"
+        app:header_text_size="13sp"
+        app:row_text_size="12sp"
+        app:row_text_color="#000"
+        app:header_text_color="#000"
+        app:row_background_color="#fff"
+        app:header_background_color="#fff"
+        app:persian_number="false"
+        app:corner_radius="8dp"
+        app:direction="ltr"
+        app:shadow="8dp"/>
+
+</LinearLayout>

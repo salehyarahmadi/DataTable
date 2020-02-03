@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DataTable">
+        <attr name="header_text_size" format="dimension"/>
+        <attr name="row_text_size" format="dimension"/>
+        <attr name="header_text_color" format="color"/>
+        <attr name="header_background_color" format="color"/>
+        <attr name="row_text_color" format="color"/>
+        <attr name="row_background_color" format="color"/>
+        <attr name="header_vertical_padding" format="dimension"/>
+        <attr name="header_horizontal_padding" format="dimension"/>
+        <attr name="header_vertical_margin" format="dimension"/>
+        <attr name="header_horizontal_margin" format="dimension"/>
+        <attr name="row_vertical_padding" format="dimension"/>
+        <attr name="row_horizontal_padding" format="dimension"/>
+        <attr name="row_vertical_margin" format="dimension"/>
+        <attr name="row_horizontal_margin" format="dimension"/>
+        <attr name="divider_thickness" format="dimension"/>
+        <attr name="divider_color" format="color"/>
+        <attr name="header_gravity" format="enum">
+            <enum name="right" value="0" />
+            <enum name="center" value="1" />
+            <enum name="left" value="2" />
+        </attr>
+        <attr name="row_gravity" format="enum">
+            <enum name="right" value="0" />
+            <enum name="center" value="1" />
+            <enum name="left" value="2" />
+        </attr>
+        <attr name="corner_radius" format="dimension" />
+        <attr name="shadow" format="dimension" />
+        <attr name="direction" format="enum">
+            <enum name="ltr" value="0" />
+            <enum name="rtl" value="1" />
+        </attr>
+        <attr name="persian_number" format="boolean" />
+    </declare-styleable>
+</resources>
