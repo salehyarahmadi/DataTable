@@ -365,6 +365,7 @@ public class DataTable extends CardView {
 
 
         //card view
+        this.removeAllViews();
         this.addView(tableLinearLayout);
         this.setRadius(this.cornerRadius);
         this.setCardElevation(this.shadow);
