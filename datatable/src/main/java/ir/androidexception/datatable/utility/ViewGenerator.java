@@ -25,7 +25,7 @@ public class ViewGenerator {
         TextView tv = new TextView(context);
         tv.setText(text);
         tv.setId(View.generateViewId());
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(0,LinearLayout.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
         layoutParams.weight = weight;
         layoutParams.leftMargin = (int)leftMargin;
         layoutParams.topMargin = (int)topMargin;
