@@ -54,7 +54,7 @@ public class ViewGenerator {
 
     public static RecyclerView generateRecyclerView(Context context, RowItemAdapter rowItemAdapter){
         RecyclerView recyclerView = new RecyclerView(context);
-        RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        RecyclerView.LayoutParams layoutParams = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         recyclerView.setLayoutParams(layoutParams);
         recyclerView.setId(View.generateViewId());
         recyclerView.setAdapter(rowItemAdapter);
@@ -73,7 +73,7 @@ public class ViewGenerator {
 
     public static LinearLayout generateHorizontalLinearLayout(Context context){
         LinearLayout horizontalLinearLayout = new LinearLayout(context);
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         horizontalLinearLayout.setOrientation(LinearLayout.HORIZONTAL);
         horizontalLinearLayout.setId(View.generateViewId());
         horizontalLinearLayout.setLayoutParams(layoutParams);
