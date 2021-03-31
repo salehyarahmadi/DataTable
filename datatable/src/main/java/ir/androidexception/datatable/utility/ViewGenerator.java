@@ -25,13 +25,14 @@ public class ViewGenerator {
         TextView tv = new TextView(context);
         tv.setText(text);
         tv.setId(View.generateViewId());
-        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(0,LinearLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.weight = weight;
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(weight,LinearLayout.LayoutParams.WRAP_CONTENT);
+        //layoutParams.weight = weight;
         layoutParams.leftMargin = (int)leftMargin;
         layoutParams.topMargin = (int)topMargin;
         layoutParams.rightMargin = (int)rightMargin;
         layoutParams.bottomMargin = (int)bottomMargin;
         tv.setLayoutParams(layoutParams);
+
         tv.setBackgroundColor(backgroundColor!=null ? backgroundColor : Color.TRANSPARENT);
         tv.setTextColor(textColor!=null ? textColor : Color.BLACK);
         switch (gravity){
